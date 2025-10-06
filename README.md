@@ -1,12 +1,27 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ Travel Agency Website
 
-Currently, two official plugins are available:
+It is a modern travel agency web app built using **React + Vite**, styled with **Bootstrap and CSS**, and powered by a **JavaScript data file**.  
+It allows users to browse destinations, view details, and choose their dream vacation spot.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+ 🚀 Features
+- 🏖️ Explore beautiful destinations  
+- 🧭 Filter and browse trips easily  
+- 💬 Responsive design using Bootstrap  
+- ⚡ Fast performance with Vite  
+- 🗂️ Dynamic data rendering from JS files  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+ 🛠️ Tech Stack
+- **React (Vite)** – Frontend framework  
+- **Bootstrap 5** – Styling and responsive design  
+- **CSS3** – Custom styles  
+- **JavaScript** – Data handling and interactivity  
+
+---
+
+
