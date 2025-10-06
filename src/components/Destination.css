@@ -1,0 +1,26 @@
+.destination-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.destination-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.destination-card .card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.destination-card:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+.destination-card .btn {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.destination-card:hover .btn {
+  background-color: #dc3545;
+  color: white;
+}

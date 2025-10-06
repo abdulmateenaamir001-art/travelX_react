@@ -1,0 +1,102 @@
+.faq > h2{
+ text-align: center;
+ font-size: 40px;
+}
+.faq{
+       background: #d4a15e;
+       color: black;
+       padding: 29px;
+}
+.faqbox svg{
+ filter: invert(1);
+}
+.faqbox:hover{
+    background-color: #414141;
+    color: white;
+}
+.faqbox{
+transition: all 1s ease-out;
+display: flex;
+justify-content: space-between;
+background-color: hsl(16, 77%, 43%);
+padding: 17px;
+max-width: 52vw;
+margin: 24px auto;
+cursor: pointer;
+font-size: 20px;
+}
+
+.faqbox {
+  position: relative;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.faq-answer {
+  display: none;
+  margin-top: 0.5rem;
+  color: #555;
+  width: 100%;
+}
+
+.faqbox.open .faq-answer {
+  display: block;
+}
+
+/* Additional styles for ContactFAQ component */
+.contact-faq-container {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+  border-radius: 10px;
+}
+
+.contact-faq-title {
+  color: #007bff;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contact-accordion {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.contact-accordion-item {
+  border: none;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.contact-accordion-item:last-child {
+  border-bottom: none;
+}
+
+.contact-accordion-button {
+  background-color: #fff;
+  color: #495057;
+  font-weight: 500;
+  border-radius: 0;
+  transition: background-color 0.3s ease;
+}
+
+.contact-accordion-button:not(.collapsed) {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.contact-accordion-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.contact-accordion-body {
+  background-color: #f8f9fa;
+  color: #d14242;
+  padding: 15px 20px;
+  border-radius: 0 0 10px 10px;
+}
